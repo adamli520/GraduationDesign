@@ -1,0 +1,15 @@
+* {
+    cursor: url(./static/blue-Arrow.cur), auto !important;
+
+}
+
+.bg-game {
+    background-color: #d5d5d5 !important;
+}
+
+.bg-footer {
+    background-color: #a9a9a9;
+}
+
+
+

@@ -1,0 +1,37 @@
+
+// 下面注释的是本地获取数据，请忽略
+// import jsondata from '@/api/games.json';
+// interface Card {
+// 	id: string;
+// 	sale_price: string;
+// 	original_price: string;
+// 	name: string;
+// 	image_url: string;
+// 	developer: string;
+// 	publisher: string;
+// 	category: string;
+// }
+// const gameData = ref<Card[]>(jsondata);
+// onMounted(() => {
+// 	gameData.value = jsondata;
+// });
+
+
+// const gameData = ref();
+// const currentPage = ref(1);
+// const pageSize = 8;
+
+// const currentPageGames = ref<Array<any>>([]);
+
+// const total = computed(() => Math.ceil((gameData.value?.length || 0) / pageSize));
+// const totalRef = ref(total.value);
+
+// console.log('total:', total);
+
+// const handlePageChange = (page: number) => {
+// 	currentPage.value = page;
+// 	const startIndex = (currentPage.value - 1) * pageSize;
+// 	const endIndex = startIndex + pageSize;
+// 	currentPageGames.value = gameData.value.slice(startIndex, endIndex);
+// 	console.log('currentPageGames:', currentPageGames.value); // 输出截取的游戏数据到控制台
+// };

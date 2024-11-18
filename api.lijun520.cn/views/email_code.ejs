@@ -1,0 +1,33 @@
+<style>
+	.kod-email-content table{border: 1px solid rgba(150,150,150,0.2);border-collapse:collapse;width:100%;}
+	.kod-email-content table thead{background:rgba(150,150,150, 0.1);font-weight:600;}
+	.kod-email-content table td,table th{border: 1px solid rgba(150,150,150,0.4);word-break:break-all;padding: 2px 8px;}
+</style>
+
+<div class="kod-email-content">
+	<div style="margin:10px auto 20px;border-radius:5px;background:#fff; box-shadow:0 0 10px #b1b1b1; text-align:left;">
+		<div style="margin:0 40px; color:#999; border-bottom:1px dotted #DDD; padding:40px 0 30px; font-size:13px; text-align:center;">
+			<a href="https://www.lijun520.cn/" style="text-decoration:none;display:inline-flex;">
+				<img src="https://nav.lijun520.cn/assets/img/my/pan-1.png" style="width:64px;height:64px;">
+				<span style="line-height:24px; margin-left:15px; height:64px; overflow:hidden; text-align:left; max-width: 360px;">
+					<span style="color:#555; font-size:20px; margin-top:12px; display:inline-block;">
+						AdamLi</span><br/>
+					<span style="color:#999">李军工作室.</span>
+				</span>
+			</a>
+		</div>
+		
+		<div style="padding:30px 40px 40px; min-height:280px;">
+			<p style="margin:0px; margin-bottom:20px;"><%=account%>，您好，</p>
+							<p style="margin:0px;">您正在进行邮箱验证，本次请求的验证码如下，为了保障您帐号的安全性，请及时完成验证。</p>
+				<p style="margin:0px; text-align:center; margin-top:40px;">
+					<span style="padding:8px 16px;border-radius:3px;text-align:center;text-decoration:none;background-color:#ecf4fb;color:#1890ff;font-size:18px; font-weight:700; letter-spacing:2px; margin:0;white-space:nowrap;display:inline-block;"> <%=code%> </span>
+				</p>
+					</div>
+
+		<div style="padding:20px 40px 40px;">
+			<p>李军工作室</p>
+			<a href="http://www.lijun520.cn/">www.lijun520.cn</a>
+		</div>
+	</div>
+</div>
